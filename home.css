@@ -135,7 +135,7 @@ hr {
     margin-top: 0px;
     background-color: #ece0d2;
     color: #37220f;
-    background-image: url(/images/images-sip&snip/background-images-services/barber-design-1.png), url(/images/images-sip&snip/background-images-services/services-design-1.png);
+    background-image: url(images/images-sip&snip/background-images-services/barber-design-1.png), url(images/images-sip&snip/background-images-services/services-design-1.png);
     background-repeat: no-repeat;
     background-position: 100% 90%, -5% 0%;
 }
