@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('/OURTEAM-FONTS/leaguespartan-bold.woff') format('woff2'),
+         url('/OURTEAM-FONTS/leaguespartan-bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Glacial';
+    src: url('/OURTEAM-FONTS/GlacialIndifference-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RoxboroughCF';
+    src: url('/OURTEAM-FONTS/Roxborough\ CF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #37220f;
+}
+
+.logo-img img {
+    width: 80%;
+    height: 90%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ece0d2;
+    font-family: 'League Spartan', sans-serif;
+}
+/*article*/
+#group-description {
+    width: 90%; 
+    max-width: 1200px; 
+    margin: auto;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px; 
+    color: #37220f;
+    font-weight: normal;
+    font-family: 'Glacial', sans-serif;
+}
+
+
+.group {
+    padding-top: 125px;
+    padding-bottom: 20px;
+}
+
+.groupname{
+    margin-top: 0;
+    text-align: center;
+    color: #37220f;
+    font-weight: bold;
+    font-family: 'Glacial', sans-serif;
+    font-size: 37px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.rectangle {
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    background-color: #dbc1ac;
+    margin: 10px auto;
+    border-radius: 30px;
+    box-shadow: 6px 6px 3px #ad9888, -6px -6px 3px #ffead0;
+    overflow: hidden;
+    transition: transform 0.3s ease, background-color 0.3s ease, filter 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.rectangle:hover {
+    transform: scale(1.05); 
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3); 
+    filter: none;
+}
+
+
+
+.profilepic {
+    position: absolute;
+    width: 235px; 
+    height: 235px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 5px solid #37220f; 
+    top: 150px; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+    box-shadow: 0px 0px 20px black;
+}
+.top-rectangle{
+    position: absolute;
+    width: 100%;
+    height: 135px;
+    background-color: #37220f;
+    z-index: 0;
+    
+}
+.wave {
+    position: absolute;
+    top: 10px; 
+    left: 0;
+    width: 100%; 
+    height: 320px; 
+    z-index: 0;
+}
+
+.name { 
+    padding-top: 300px;
+    font-size: 35px;
+    color: #37220f;
+    margin: 0;
+    font-family: "League Spartan", sans-serif;
+}
+.job-position{
+    position: relative;
+    padding-top: 15px;
+    font-size: 25px;
+    color: #37220f; 
+    margin: 0;
+    font-family: 'Glacial', sans-serif;
+    font-weight: normal;
+    width: auto;
+}
+.job-description{
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 26px;
+    color: #37220f;
+    width: 100%; 
+    line-height: 1.5;
+    font-family: 'Glacial', sans-serif;
+}
+.contact-item {
+    position: relative;
+    display: flex;         
+    height: 100%;
+    width: 100%;
+}  
+.socmed{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+    padding-top: 100px;
+}
+
+.icon{
+    box-shadow: 6px 6px 0px #bca694,
+    -6px -6px 0px #fadcc4;
+    overflow: hidden;
+    width: 40px;
+    height: 43px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.icon:hover {
+    transform: scale(1.2); 
+    filter: brightness(1.3); 
+    transform: scaleX(1.4);
+}
+
+@media (min-width: 1200px) {
+    #group-description {
+        font-size: 37px;
+        width: 1000px; 
+    }
+}
+@media (max-width: 1228px) {
+    .top-rectangle{
+        height: 155px;
+    }
+    .profilepic{
+        height: 200px;
+        width: 200px;
+    }
+    #group-description {
+        font-size: 20px;
+    }
+    .name{
+        font-size: 35px;
+        padding-top: 270px;
+    }
+    .job-position{
+        font-size: 25px;
+        padding-top: 15px;
+    }
+    .job-description{
+        font-size: 26px;
+        margin-left: 12%;
+        margin-right: 12%;
+        width: auto;
+    }
+    .socmed{
+        padding-top: 500px;
+    }
+    .icon{
+        height: 50px;
+        width: 48px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .rectangle {
+        margin: 15px auto;
+        padding-bottom: 20px; 
+    }
+    .top-rectangle{
+        height: 135px;
+    }
+    .profilepic{
+        height: 200px;
+        width: 200px;
+        top: 130px;
+    }
+    #group-description {
+        font-size: 20px;
+    }
+    .name{
+        font-size: 35px;
+        padding-top: 270px;
+    }
+    .job-position{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .job-description{
+        font-size: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: auto;
+        height: 310px;
+        
+    }
+    .socmed{
+        padding-top: 140px;
+    }
+    .icon{
+        height: 40px;
+        width: 38px;
+    }
+
+}
+@media (max-width: 580px){
+    .col-12 {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .socmed{
+        padding-top: 80px;
+    }
+    .profilepic{
+        top: 130px;
+    }
+    
+}
+
+

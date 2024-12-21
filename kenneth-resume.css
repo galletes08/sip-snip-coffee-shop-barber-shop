@@ -1,0 +1,305 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('/MIDTERM/HTML-CSS-FILE/OURTEAM-HTML&CSS/OURTEAM-FONTS/leaguespartan-bold.woff') format('woff2'),
+         url('/MIDTERM/HTML-CSS-FILE/OURTEAM-HTML&CSS/OURTEAM-FONTS/leaguespartan-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('/MIDTERM/HTML-CSS-FILE/OURTEAM-HTML&CSS/OURTEAM-FONTS/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;     
+}
+@font-face {
+    font-family: 'RoxboroughCF';
+    src: url('/MIDTERM/HTML-CSS-FILE/OURTEAM-HTML&CSS/OURTEAM-FONTS/Roxborough\ CF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ece0d2;
+}
+.rectangle-holder{
+    position: absolute;
+    background-color: #ece0d2;
+    width: 70%;
+    height: 2120px;
+    bottom: 10%;
+    top: 15%;
+    left: 15%;
+    right: 15%;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow:  40px 40px 30px #8e867e,
+             -40px -40px 30px #8e867e;
+}
+.rectangle.first {
+    position: absolute;
+    background-color: #37220f;
+    justify-content: left;
+    top: 50px;
+    width: 41.5%;
+    height:2000px;
+    border-radius: 37px;
+    margin-left: -1.5%;
+    z-index: 2;
+    
+}
+
+#profile{
+    position: absolute;
+    width: 70%; 
+    height: 320px;
+    border-radius: 5%; 
+    top: 200px;
+    left: 52%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+    
+}
+#profile:hover{
+    filter: brightness(.7);    
+}
+
+#first-h2{
+    position: absolute;
+    top: 390px; 
+    left: 130px;
+    transform: translateX(-50%); 
+    font-size: 37px;
+    color: #ece0d2;
+    margin: 0;
+    font-family: "League Spartan", sans-serif;
+}
+#second-h2{
+    position: absolute;
+    top: 725px; 
+    left: 330px;
+    width: 580px;
+    transform: translateX(-50%); 
+    font-size: 37px;
+    color: #ece0d2;
+    margin: 0;
+    font-family: "League Spartan", sans-serif;
+}
+
+#table-holder {
+    position: relative;   
+    left: 4%;         
+    top: 440px;
+    flex-direction: column;
+    display: flex;
+}
+.contact-item {
+    display: flex;         
+    align-items: center;   
+}  
+
+.icons{
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    margin: 20px;
+    margin-left: 20px;
+}
+
+.info-contacts{
+    margin-left: 5px;  
+    color: #ece0d2;
+    font-size: 18px;
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 18px;
+    width: 400px;
+}
+
+#personal-container{
+    padding-top: 510px;
+    padding-left: 25px;
+}
+.personal-info {
+    margin-bottom: 8%;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 21px;
+    color: #ece0d2;
+}
+#sixth-h2{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 36px;
+    margin-left: 20px;
+}
+.work-experience{
+    margin-top: 50px;
+    margin-left: 20px;  
+    color: #ece0d2;
+    font-size: 21px;
+    width: 500px;
+}
+#workplace{
+    margin-left: 40px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    bottom: 0;
+}
+#work-position{
+    width: auto;
+    margin-top: 0;
+    bottom: 0;
+    margin-left: 0px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+.work-description{
+    top: 0;
+    margin-bottom: 40px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    width: 370px;
+}
+.work-date{
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;  
+    margin-left: 20px;  
+    top: 0;
+}
+
+
+.rectangle.second{  
+    position: absolute;
+    height: 2040px;
+    width: 60%;
+    background-color: #ece0d2;
+    left: 40%;
+    z-index: 1;
+
+}
+
+.name{
+    font-family: 'RoxboroughCF', sans-serif ;
+    font-size: 70px;
+    margin-left: 20px;
+    color: #37220f;
+    
+}
+hr{
+    border: 1.5px solid #000;
+    width: 60%;
+    margin-left: auto;
+    margin-right: 0;
+}
+#third-h2{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 37px;
+    color: #37220f;
+    margin-top: 70px;
+    margin-left: 21px;
+    margin-bottom: 0;
+}
+.education-holder{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    flex-direction: column;
+    display: flex;
+    color: #37220f;
+    
+}
+.education-info{
+    margin-left: 40px;
+    font-size: 21px;
+    margin-bottom: 0;
+}
+
+#date{
+    font-weight: normal;
+    margin-left: 20px;
+    font-size: 21px;
+}
+.first-h3{
+    width: 800px;
+    margin-left: 0;
+    font-size: 21px;
+    margin-top: 15px;
+}
+.school-address{
+    font-weight: normal;
+    margin-left: 0;
+    font-size: 21px;
+    margin-top: 0;
+}
+#fourth-h2{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 37px;
+    color: #37220f;
+    margin-top: 0;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+.skills-holder{
+    margin-left: 0;
+    font-size: 21px;
+    margin-bottom: 0;
+    width: 550px;
+    font-weight: bold;
+    color: #37220f;
+}
+.title-skills{
+    margin-left: 33px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    width: auto;
+    font-family: 'League Spartan', sans-serif;
+}
+.soft{
+    margin-left: 150px;
+}
+.set-of-skills{
+    margin-left: 0px;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.soft-skills{
+    margin-left: 100px;
+}
+
+#fifth-h2{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 37px;
+    color: #37220f;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.cert-image{
+    height: 260px;
+    width: 280px;
+    margin-left: 20px;
+    border: #000 solid 3px;
+    margin-top: 10px;
+}
+.cert-image:hover{
+    filter: brightness(.7);
+}
+.contact-item .certificate{
+    display: flex;         
+    align-items: center;   
+}
+footer{
+    position: absolute;
+    color: #37220f;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 3.5%;
+    margin-top: 2070px;
+}
+#break{
+    height: 2500px;
+}

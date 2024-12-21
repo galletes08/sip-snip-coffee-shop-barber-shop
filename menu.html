@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/MIDTERM/images/images-sip&snip/logo/favicon.ico"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/path-to-custom-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/HTML-CSS-FILE/SIP&SNIP-HTML-CSS/SIP&SNIP-CSS/menu.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="home.html#home">
+          <img
+            src="/images/images-sip&snip/logo/white-logo-sip&snip.png"
+            alt="Sip&Snip Logo"
+            height="70"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="home.html#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="home.html#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="home.html#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="video-container">
+      <!-- Background video -->
+      <video autoplay muted loop>
+        <source
+          src="/background-video/menu-hero-bg-vid/hero-mernu-bg-vid.mp4"
+          type="video/mp4"
+        />
+      </video>
+
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <h1>
+          Smooth coffee or <br />fizzy soda spritz—<br />your perfect sip!
+        </h1>
+      </div>
+    </div>
+    <hr />
+    <div class="all-menu">
+      <div class="container nav-menu" id="menu">
+        <!-- Radio buttons styled as tabs -->
+        <div class="btn-group d-flex" role="group">
+          <input
+            type="radio"
+            class="btn-check"
+            name="tab"
+            id="classic"
+            autocomplete="off"
+            checked
+          />
+          <label for="classic" class="btn btn-outline-primary flex-fill"
+            >Classic</label
+          >
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="tab"
+            id="speciality"
+            autocomplete="off"
+          />
+          <label for="speciality" class="btn btn-outline-primary flex-fill"
+            >Speciality</label
+          >
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="tab"
+            id="soda"
+            autocomplete="off"
+          />
+          <label for="soda" class="btn btn-outline-primary flex-fill"
+            >Soda Spritz</label
+          >
+        </div>
+
+        <!-- Tab contents -->
+        <div class="menu-section container">
+          <div id="classic-content" class="tab-content active">
+            <div class="menu-header">Classic</div>
+            <!--AMERICANO-->
+            <div class="menu-item">
+              <h3>Americano</h3>
+              <p class="menu-description">
+                Rich and bold taste made by only diluting espresso with hot or
+                cold iced water.
+              </p>
+              <div class="row py-3">
+                <!-- Hot Americano -->
+                <div class="col-6 text-center image-container py-3">
+                  <img
+                    src="/images/images-sip&snip/classic-hot-cof/hotamericanonobg.png"
+                    alt="Hot Americano"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Hot: 8oz - ₱50 | 12oz - ₱60</p>
+                </div>
+                <!-- Iced Americano -->
+                <div class="col-6 text-center image-container py-3">
+                  <img
+                    src="/images/images-sip&snip/classic-cof/americano-cof.png"
+                    alt="Iced Americano"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱65 | 16oz - ₱70</p>
+                </div>
+              </div>
+            </div>
+            <!--LATTE-->
+            <div class="menu-item">
+              <h3>Latte</h3>
+              <p class="menu-description">
+                Creamy flavor with a combination of espresso and plain milk,
+                resulting to a creamy balance coffee flavor.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/classic-hot-cof/hotLatte nobg.png"
+                    alt="Hot Latte"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Hot: 8oz - ₱70 | 12oz - ₱80</p>
+                </div>
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/classic-cof/latte-cof.png"
+                    alt="Iced Latte"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱85 | 16oz - ₱90</p>
+                </div>
+              </div>
+            </div>
+            <!--VANILLA-->
+            <div class="menu-item">
+              <h3>Vanilla</h3>
+              <p class="menu-description">
+                With a traditional latte but adding with a vanilla flavor making
+                it taste smoothly creamy texture.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/classic-hot-cof/hotVanilla nobg.png"
+                    alt="Hot Vanilla"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Hot: 8oz - ₱90 | 12oz - ₱100</p>
+                </div>
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/classic-cof/vanilla-cof.png"
+                    alt="Iced Vanilla"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱105 | 16oz - ₱110</p>
+                </div>
+              </div>
+            </div>
+            <!--HAZELNUT-->
+            <div class="menu-item">
+              <h3>Hazelnut</h3>
+              <p class="menu-description">
+                Taste like a real hazelnut making the coffee real nutty sweer
+                flavor and creamy aromatic taste.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/classic-hot-cof/hotHazelnut nobg.png"
+                    alt="Hot Hazelnut"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Hot: 8oz - ₱90 | 12oz - ₱100</p>
+                </div>
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/classic-cof/hazel-cof.png"
+                    alt="Iced Hazelnut"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱105 | 16oz - ₱110</p>
+                </div>
+              </div>
+            </div>
+            <!--CARAMEL-->
+            <div class="menu-item">
+              <h3>Caramel</h3>
+              <p class="menu-description">
+                Caramel or often known as caramel macchiato making it taste
+                really creamy at sweetend <br />
+                with decadent aroma of caramel that add richness to the coffee.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/classic-hot-cof/hotCaramel nobg.png"
+                    alt="Hot Caramel"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Hot: 8oz - ₱90 | 12oz - ₱100</p>
+                </div>
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/classic-cof/caramel-cof.png"
+                    alt="Iced Caramel"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱105 | 16oz - ₱110</p>
+                </div>
+              </div>
+            </div>
+            <!--MOCHA-->
+            <div class="menu-item">
+              <h3>Mocha</h3>
+              <p class="menu-description">
+                Mocha or Dark Chocolate mocha combining with a bold taste of
+                coffee espresso and a chocolatey flavor.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/classic-hot-cof/hotMocha nobg.png"
+                    alt="Hot Mocha"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Hot: 8oz - ₱90 | 12oz - ₱100</p>
+                </div>
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/classic-cof/mocha-cof.png"
+                    alt="Iced Mocha"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱105 | 16oz - ₱110</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="speciality-content" class="tab-content">
+            <div class="menu-header">Speciality</div>
+            <!--SPANISH LATTE-->
+            <div class="menu-item">
+              <h3>Spanish Latte</h3>
+              <p class="menu-description">
+                Sip and Snip Best Seller it has a creamy milky taste that
+                balancing the rich coffee flavor with a sweetened condensed
+                milk,<br />
+                which gives it a velvety texture and a distinctively rich taste.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-hot-cof/hot-spanish-latte.png"
+                    alt="Hot Spanish Latte"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Hot: 8oz - ₱100 | 12oz - ₱110</p>
+                </div>
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-cof/spanish-latte-cof.png"
+                    alt="Iced Spanish Latte"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱115 | 16oz - ₱120</p>
+                </div>
+              </div>
+            </div>
+            <!--POPCORN-->
+            <div class="menu-item">
+              <h3>Popcorn</h3>
+              <p class="menu-description">
+                Taste like a real Caramel Popcorn but in a coffee! with a
+                buttery taste of sweetness and rich caramel notes.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-hot-cof/hotpopcorn.png"
+                    alt="Hot Popcorn"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Hot: 8oz - ₱100 | 12oz - ₱110</p>
+                </div>
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-cof/Popcorn-cof.png"
+                    alt="Iced Popcorn"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱115 | 16oz - ₱120</p>
+                </div>
+              </div>
+            </div>
+            <!--MACADAMIA-->
+            <div class="menu-item">
+              <h3>Macadamia</h3>
+              <p class="menu-description">
+                Creamy with a subtle taste of sweetness and a subtle nutty
+                flavor that enhancing the coffee smooth flavor <br />without
+                overpowering the coffee taste.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-hot-cof/hot-macademia.png"
+                    alt="Hot Macadamia"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Hot: 8oz - ₱100 | 12oz - ₱110</p>
+                </div>
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-cof/macadamia-cof.png"
+                    alt="Iced Macadamia"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱115 | 16oz - ₱120</p>
+                </div>
+              </div>
+            </div>
+            <!--CHOC COOKIE-->
+            <div class="menu-item">
+              <h3>Choc-Cookie</h3>
+              <p class="menu-description">
+                One of the best sellers taste like a freshly baked Chocolate
+                Cookie blended with a rich coffee, mix with chocolatey flavor
+                and a espresso.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-hot-cof/hot_choc-cookie.png"
+                    alt="Hot Choc-Cookie"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Hot: 8oz - ₱100 | 12oz - ₱110</p>
+                </div>
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-cof/chocolate-cookie-cof.png"
+                    alt="Iced Choc-Cookie"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱115 | 16oz - ₱120</p>
+                </div>
+              </div>
+            </div>
+            <!--CHOC PEPERMINT-->
+            <div class="menu-item">
+              <h3>Choc-Pepermint</h3>
+              <p class="menu-description">
+                Chocolate flavor with a refreshing twist of peppermint giving it
+                a slightly minty flavor, that lightens the richness of the
+                chocolate.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-hot-cof/hot_choc-peppermint.png"
+                    alt="Hot Choc-Pepermint"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Hot: 8oz - ₱100 | 12oz - ₱110</p>
+                </div>
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-cof/chocolate-pepermint-cof.png"
+                    alt="Iced Choc-Pepermint"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱115 | 16oz - ₱120</p>
+                </div>
+              </div>
+            </div>
+            <!--ORANGE AMERICANO-->
+            <div class="menu-item">
+              <h3>Orange Americano</h3>
+              <p class="menu-description">
+                Unique bold refreshing twist on a classic americano, with a
+                taste of citrus notes of a fresh orange adding a zesty sweetness
+                that compliments the coffee.
+              </p>
+              <div class="row">
+                <div class="col-12 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-cof/americano-ice1.png"
+                    alt="Iced Orange Americano"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 30%;
+                      height: 80%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱115 | 16oz - ₱120</p>
+                </div>
+              </div>
+            </div>
+            <!--MATCHA-->
+            <div class="menu-item">
+              <h3>Matcha (Milk based)</h3>
+              <p class="menu-description">
+                A Milk-Based Matcha latte tastes like matcha green tea,
+                featuring a slightly grassy flavor that perfectly balances with
+                the creaminess of condensed milk.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-hot-cof/matcha-hot-cof.png"
+                    alt="Hot Matcha"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Hot: 8oz - ₱115 | 12oz - ₱120</p>
+                </div>
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-cof/matcha-cof.png"
+                    alt="Iced Matcha"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱115 | 16oz - ₱120</p>
+                </div>
+              </div>
+            </div>
+            <!--DIRTY MATCHA-->
+            <div class="menu-item">
+              <h3>Dirty Matcha</h3>
+              <p class="menu-description">
+                With a taste of a bold matcha green tea matching it with a
+                richness of a coffee espresso, that make a unique blend and
+                create a balance of creamy,sweetness, <br />and a coffee notes.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-hot-cof/dirty-matcha-hot-cof.png"
+                    alt="Hot Dirty Matcha"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Hot: 8oz - ₱115 | 12oz - ₱120</p>
+                </div>
+                <div class="col-6 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/special-cof/dirty-matcha-cof.png"
+                    alt="Iced Dirty Matcha"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      max-width: 55%;
+                      height: 70%;
+                      background-color: #ac8764;
+                    "
+                  />
+                  <p class="mt-2">Iced: 12oz - ₱115 | 16oz - ₱120</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Soda Spritz-->
+          <div id="soda-content" class="tab-content">
+            <div class="menu-header">Soda Spritz</div>
+            <!--STRAWBBERRY-->
+            <div class="menu-item">
+              <h3>Strawberry</h3>
+              <p class="menu-description">
+                This classic drink is sweet, refreshing, and bursting with the
+                natural flavor of ripe strawberries. Its fruity, vibrant taste
+                makes <br />it a perfect choice for warm days or as a light,
+                refreshing treat.
+              </p>
+              <div class="row">
+                <div class="col-12 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/soda-spritz/strawberry-soda.png"
+                    alt="Soda Strawberry"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      width: 20%;
+                      height: 75%;
+                      background-color: #d79684;
+                      box-shadow: 0px 0px 20px 1px #d79684;
+                    "
+                  />
+                  <p class="mt-2">16oz - ₱100 | 12oz - ₱80</p>
+                </div>
+              </div>
+            </div>
+            <!--PEACH LYCHEE-->
+            <div class="menu-item">
+              <h3>Peach Lychee</h3>
+              <p class="menu-description">
+                A tropical blend of juicy peach and sweet, fragrant lychee
+                creates a unique and exotic drink. The subtle floral notes of
+                <br />lychee pair wonderfully with the tangy peach for a light
+                and flavorful beverage.
+              </p>
+              <div class="row">
+                <div class="col-12 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/soda-spritz/peach-lychee-soda.png"
+                    alt="Soda Peach Lychee"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      width: 20%;
+                      height: 75%;
+                      background-color: #fcaba7;
+                      box-shadow: 0px 0px 20px 1px #fcaba7;
+                    "
+                  />
+                  <p class="mt-2">16oz - ₱100 | 12oz - ₱80</p>
+                </div>
+              </div>
+            </div>
+            <!--GREEN APPLE-->
+            <div class="menu-item">
+              <h3>Green Apple</h3>
+              <p class="menu-description">
+                Tart and crisp green apple is the star of this vibrant drink,
+                offering a refreshing and slightly sour taste. Its clean flavor
+                <br />makes it a great choice for those who enjoy bright and
+                tangy beverages.
+              </p>
+              <div class="row">
+                <div class="col-12 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/soda-spritz/greenapple-soda.png"
+                    alt="Soda Green Apple"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      width: 20%;
+                      height: 75%;
+                      background-color: #a0d697;
+                      box-shadow: 0px 0px 20px 1px #a0d697;
+                    "
+                  />
+                  <p class="mt-2">16oz - ₱100 | 12oz - ₱80</p>
+                </div>
+              </div>
+            </div>
+            <!--STRAWBERRY PEACH-->
+            <div class="menu-item">
+              <h3>Strawberry Peach</h3>
+              <p class="menu-description">
+                This drink combines the bright sweetness of strawberries with
+                the mellow, juicy flavor of peaches for a perfectly balanced
+                treat.<br />
+                It’s a refreshing mix that’s fruity and smooth, ideal for summer
+                days.
+              </p>
+              <div class="row">
+                <div class="col-12 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/soda-spritz/strawberry-peach-soda.png"
+                    alt="Soda Strawberry Peach"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      width: 20%;
+                      height: 75%;
+                      background-color: #da9480;
+                      box-shadow: 0px 0px 20px 1px #da9480;
+                    "
+                  />
+                  <p class="mt-2">16oz - ₱100 | 12oz - ₱80</p>
+                </div>
+              </div>
+            </div>
+            <!--STRAWBERRY LYCHEE-->
+            <div class="menu-item">
+              <h3>Strawberry Lychee</h3>
+              <p class="menu-description">
+                The sweetness of strawberries and the floral essence of lychee
+                combine in this deliciously refreshing drink. It’s a fruity
+                blend that offers a tropical twist, <br />making it an instant
+                favorite for any occasion.
+              </p>
+              <div class="row">
+                <div class="col-12 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/soda-spritz/strawberry-lychee-soda.png"
+                    alt="Soda Strawberry Lychee"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      width: 20%;
+                      height: 75%;
+                      background-color: #fcaba7;
+                      box-shadow: 0px 0px 20px 1px #fcaba7;
+                    "
+                  />
+                  <p class="mt-2">16oz - ₱100 | 12oz - ₱80</p>
+                </div>
+              </div>
+            </div>
+            <!--GREEN APPLE PEPPERMINT-->
+            <div class="menu-item">
+              <h3>Green Apple Peppermint</h3>
+              <p class="menu-description">
+                Tart green apple meets the cool, crisp taste of peppermint in
+                this vibrant, refreshing drink. The zesty apple and refreshing
+                mint
+                <br />combination is both energizing and palate-cleansing.
+              </p>
+              <div class="row">
+                <div class="col-12 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/soda-spritz/greenapple_peppermint-soda.png"
+                    alt="Soda Green Apple Peppermint"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      width: 20%;
+                      height: 75%;
+                      background-color: #afd595;
+                      box-shadow: 0px 0px 20px 1px #afd595;
+                    "
+                  />
+                  <p class="mt-2">16oz - ₱100 | 12oz - ₱80</p>
+                </div>
+              </div>
+            </div>
+            <!--STRAWBERRY PEPPERMINT-->
+            <div class="menu-item">
+              <h3>Strawberry Peppermint</h3>
+              <p class="menu-description">
+                The refreshing take on the classic strawberry drink, this
+                version is brightened by the cool, minty flavor of peppermint.
+                <br />The blend of fruity sweetness and herbal freshness creates
+                a uniquely invigorating drink.
+              </p>
+              <div class="row">
+                <div class="col-12 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/soda-spritz/strawberry-peppermint-soda.png"
+                    alt="Soda Strawberry Peppermint"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      width: 20%;
+                      height: 75%;
+                      background-color: #d49485;
+                      box-shadow: 0px 0px 20px 1px #d49485;
+                    "
+                  />
+                  <p class="mt-2">16oz - ₱100 | 12oz - ₱80</p>
+                </div>
+              </div>
+            </div>
+            <!--PASSION FRUIT-->
+            <div class="menu-item">
+              <h3>Passion Fruit</h3>
+              <p class="menu-description">
+                Exotic and tangy, passion fruit offers a bold and tropical
+                flavor that’s both sweet and slightly tart. This drink is
+                refreshing,<br />
+                with a unique taste that transports you to a tropical getaway.
+              </p>
+              <div class="row">
+                <div class="col-12 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/soda-spritz/passion-soda.png"
+                    alt="Soda Passion Fruit"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      width: 20%;
+                      height: 75%;
+                      background-color: #a3803d;
+                      box-shadow: 0px 0px 20px 1px #a3803d;
+                    "
+                  />
+                  <p class="mt-2">16oz - ₱100 | 12oz - ₱80</p>
+                </div>
+              </div>
+            </div>
+            <!--KIWI & MANGO-->
+            <div class="menu-item">
+              <h3>Kiwi & Mango</h3>
+              <p class="menu-description">
+                The tangy kiwi and sweet, tropical mango are a match made in
+                fruit heaven. This drink is bursting with flavor,
+                <br />combining the smooth sweetness of mango with the zesty
+                kick of kiwi.
+              </p>
+              <div class="row">
+                <div class="col-12 text-center image-container">
+                  <img
+                    src="/images/images-sip&snip/soda-spritz/kiwi&mango-soda.png"
+                    alt="Soda Kiwi & Mango"
+                    class="img-thumbnail coffee-image"
+                    style="
+                      width: 20%;
+                      height: 75%;
+                      background-color: #c4b553;
+                      box-shadow: 0px 0px 20px 1px #c4b553;
+                    "
+                  />
+                  <p class="mt-2">16oz - ₱100 | 12oz - ₱80</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <!-- Contact Info -->
+          <div class="col-md-4 mb-4">
+            <h5>Contact Us</h5>
+
+            <p><i class="bi bi-telephone-fill"></i>+639171104925</p>
+            <a href="mailto:SipandSnip@gmail.com">
+              <p><i class="bi bi-envelope-fill"></i>SipandSnip@gmail.com</p>
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=61561307454611&mibextid=ZbWKwL"
+            >
+              <p><i class="bi bi-facebook"></i> Sip and Snip PH</p>
+            </a>
+            <a
+              href="https://www.instagram.com/sipandsnip.ph?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            >
+              <p><i class="bi bi-instagram"></i> Sip and Snip</p>
+            </a>
+          </div>
+          <!-- Logo and Address -->
+          <div class="col-md-4 mb-4 text-center">
+            <a href="home.html#home" class="footer-logo"><h1>Sip & Snip</h1></a>
+            <a
+              href="https://www.google.com/maps/@14.2134161,121.1656885,3a,60y,159.61h,88.05t/data=!3m7!1e1!3m5!1sCW_EFrw0e34ayjdpTtzpNw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.949664369951421%26panoid%3DCW_EFrw0e34ayjdpTtzpNw%26yaw%3D159.61024875345566!7i16384!8i8192?coh=205410&entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D"
+            >
+              <p>
+                JP Rizal St. Brgy. 6 Poblacion, Calamba, Laguna (beside Angel's
+                Burger)
+              </p>
+            </a>
+            <a href="reviews.html">Reviews and Feedbacks</a>
+          </div>
+          <!-- Working Hours -->
+          <div class="col-md-4 mb-4 working-hours">
+            <h5>Working Hours</h5>
+            <p>Open Tuesday to Sunday</p>
+            <p>Closed on Monday</p>
+            <p>Coffee Shop: 10:00 AM to 10:00 PM</p>
+            <p>Barber Shop: 10:00 AM to 7:00 PM</p>
+            <p>Open Every Sunday: 1:00 PM to 7:00 PM</p>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="developed">
+          <a
+            href="/HTML-CSS-FILE/OURTEAM/HTML,CSS,JS-OURTEAM/HTML files/ourteam-bootstrap.html"
+          >
+            Developed by <em>F4</em></a
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      // JavaScript to handle tab switching
+      document.querySelectorAll('input[name="tab"]').forEach((radio) => {
+        radio.addEventListener("change", function () {
+          // Hide all tab content
+          document.querySelectorAll(".tab-content").forEach((content) => {
+            content.classList.remove("active");
+          });
+
+          // Show the selected tab's content
+          const selectedTab = this.id + "-content";
+          document.getElementById(selectedTab).classList.add("active");
+        });
+      });
+    </script>
+  </body>
+</html>

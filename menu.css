@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair:opsz,wght@5..1200,300..900&display=swap');
+
+@font-face {
+  font-family: menufont;
+  src: url(/fonts/TAN-NIMBUS.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ece0d2;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  font-family: "Merriweather", serif;
+}
+
+
+
+.navbar {
+  background-color: #37220f;
+}
+
+.hero-section {
+  padding-top: 250px;
+  min-height: 100vh;
+  background-color: #ece0d2;
+  font-family: "League Spartan", sans-serif;
+}
+
+.logo-img img {
+  width: 80%;
+  height: 90%;
+}
+
+
+.fs-1 {
+  font-size: 20rem;
+}
+
+/*BEANS DESIGN*/
+.all-menu {
+  width: 100%; height: auto; 
+  background-image: url(/images/images-sip&snip/background-images-menu/beans3.png), url(/images/images-sip&snip/background-images-menu/soda-bubble.png), url(/images/images-sip&snip/background-images-menu/beans4.png), url(/images/images-sip&snip/background-images-menu/soda-bubble-des2.png), url(/images/images-sip&snip/background-images-menu/peppermint1.png), url(/images/images-sip&snip/background-images-menu/beans1.png), url(/images/images-sip&snip/background-images-menu/strawberry-des.png), url(/images/images-sip&snip/background-images-menu/soda-bubble.png), url(/images/images-sip&snip/background-images-menu/peppermint2.png), url(/images/images-sip&snip/background-images-menu/soda-bubble-des2.png), url(/images/images-sip&snip/background-images-menu/beans5.png), url(/images/images-sip&snip/background-images-menu/soda-bubble-des3.png), url(/images/images-sip&snip/background-images-menu/beans2.png), url(/images/images-sip&snip/background-images-menu/mango-des.png), url(/images/images-sip&snip/background-images-menu/green-apple-des.png), url(/images/images-sip&snip/background-images-menu/strawberry-des3.png), url(/images/images-sip&snip/background-images-menu/beans4.png);
+  background-repeat: no-repeat;
+  background-position: -1% 0%, 103% 2%, 110% 20%, -2% 15%, -2% 25%, -12% 39%, -3% 100%, 105% 32%, 105% 48%, -2% 52%, -11% 65%, 105% 60%, 113% 73%, -7% 75%, 110% 85%, 105% 102%, -13% 86%;
+}
+
+/*HERO VIDEO*/
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Background video */
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/* Overlay content */
+.overlay-content h1{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: whitesmoke;
+  text-align: justify;
+  font-family: menufont;
+  text-shadow: 0px 5px 10px black;
+  line-height: 1.6em;
+  font-size: 45px;
+  font-weight: 100;
+  letter-spacing: 6px;
+}
+
+
+/*CLASSIC, SPECIALITY, SODA SPRITZ BUTTON*/
+.nav-menu {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.tab-content {
+  display: none;
+  margin-top: 20px;
+  
+}
+.tab-content.active {
+  display: block;
+ 
+}
+label {
+  cursor: pointer;
+}
+
+.nav-menu .btn-outline-primary {
+  color: #ffffff; 
+  border-color: #6c757d; 
+  background-color: #7e5a4c; 
+}
+
+/* Hover effect for buttons */
+.nav-menu .btn-outline-primary:hover {
+  color: #343a40; 
+  background-color: #ffffff; 
+  border-color: #343a40; 
+}
+
+/* Active when the radio is selected */
+.nav-menu .btn-outline-primary.active,
+.nav-menu .btn-check:checked + .btn-outline-primary {
+  color: #ffffff; 
+  background-color: #37220f; 
+  border-color: white; 
+}
+
+
+/*PRODUCT*/
+.menu-section {
+  padding: 40px 20px;
+}
+.menu-header {
+  background-color: #8b5e3c;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.menu-item {
+  margin-bottom: 40px;
+}
+.menu-item h3 {
+  font-size: 29px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-family: menufont;  
+  letter-spacing: 2px;
+}
+
+
+
+.menu-description {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.coffee-image {
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 8px;
+}
+
+.image-container {
+  padding: 10px;
+}
+
+
+.image-container img {
+  border-radius: 20%;
+  box-shadow: 0px 0px 20px 1px #7e5a4c;
+}
+
+.image-container img:hover {
+  transform: translateY(-5px);
+transition-duration: 0.4s;
+}
+
+
+/*FOOTER*/
+.footer {
+  background-color: #4e2b20;
+  color: #f5efe6;
+  padding: 50px 20px;
+  width: 100%;
+}
+
+.footer-logo {
+  text-decoration: none;
+  color: #ece0d2;
+}
+
+.footer h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-family: menufont;
+  letter-spacing: 2px;
+}
+
+.footer h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #f5efe6;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-icons i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.divider {
+  height: 1px;
+  background-color: #7e5a4c;
+  margin: 30px 0;
+}
+
+.developed {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #d6c2ae;
+}
+
+.working-hours {
+  text-align: end;
+}
+
+@media (max-width: 1228px) {
+  .all-menu {
+    background-image: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .all-menu {
+    background-image: none;
+  }
+
+  .footer h1 {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.footer p {
+    font-size: 0.8rem;
+}
+
+.overlay-content h1{
+  text-align: justify;
+  font-size: 30px;
+}
+}
+
+@media (max-width: 580px) {
+  .all-menu {
+    background-image: none;
+  }
+
+  .menu-description {
+    font-size: 9px;
+  }
+
+  .image-container p {
+    font-size: 11px;
+  }
+
+
+  .footer h1 {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.footer p {
+    font-size: 0.8rem;
+}
+
+  .working-hours {
+    text-align: center;
+  }
+
+  .overlay-content h1{
+    text-align: justify;
+    font-size: 25px;
+  }
+  
+
+}

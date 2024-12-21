@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair:opsz,wght@5..1200,300..900&display=swap');
+
+
+@font-face {
+  font-family: reviewsfont;
+  src: url(/fonts/TAN-NIMBUS.otf);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fef3e7;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: sans-serif;
+  font-family: "Merriweather", serif;
+}
+
+.navbar {
+  background-color: #37220f;
+}
+
+.hero-section {
+  padding-top: 90px;
+  min-height: 100vh;
+}
+
+.logo-img img {
+  width: 80%;
+  height: 90%;
+}
+
+
+.fs-1 {
+  font-size: 20rem;
+}
+
+hr {
+  padding: 2px;
+  background-color: #37220f;
+  margin: 0;
+  box-shadow: 0px 0px 10px 1px #37220f;
+  border: none;
+}
+
+/*HERO*/
+
+.hero-section h1{
+  font-family: reviewsfont;
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  top: 40%;
+  left: 6%;
+  text-shadow: 1px 7px 5px black;
+}
+
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.review-card {
+  flex: 1 1 calc(33.333% - 1rem);
+  background-color: #37220f;
+  color: #f5efe6;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.review-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #4e2b20;
+  color: #f5efe6;
+  padding: 50px 20px;
+  width: 100%;
+}
+
+.footer-logo {
+  text-decoration: none;
+  color: #ece0d2;
+  font-family: reviewsfont;
+}
+
+.footer h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.footer h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #f5efe6;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-icons i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.divider {
+  height: 1px;
+  background-color: #7e5a4c;
+  margin: 30px 0;
+}
+
+.developed {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #d6c2ae;
+}
+
+.working-hours {
+  text-align: end;
+} 
+
+@media (max-width: 768px) {
+  .hero-section  {
+      background-size: contain; /* Adjusts for smaller devices */
+  }
+}
+
+@media (max-width: 580px) {
+  .hero-section img{
+    background-size: contain; /* Adjusts for smaller devices */
+}
+
+/*FOOTER*/
+.working-hours {
+text-align: center;
+}
+
+}

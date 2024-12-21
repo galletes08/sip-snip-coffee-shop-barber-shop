@@ -1,0 +1,905 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair:opsz,wght@5..1200,300..900&display=swap');
+
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ece0d2;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    font-family: "Merriweather", serif;
+
+
+}
+
+@font-face {
+    font-family: sip-snipfont;
+    src: url(/fonts/TAN-NIMBUS.otf);
+}
+
+
+
+@keyframes float {
+    50% {
+        transform: translateY(15px);
+    }
+}
+
+.navbar {
+    background-color: #37220f;
+}
+
+.hero-section {
+    padding-top: 190px;
+    min-height: 100vh;
+    background-color: #ece0d2;
+    font-family: "League Spartan", sans-serif;
+}
+
+.logo-img img {
+    width: 80%;
+    height: 90%;
+}
+
+
+.fs-1 {
+    font-size: 20rem;
+}
+
+/*Hero Section*/
+.left-hero {
+    margin-top: 40px;
+}
+
+.left-hero p {
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    top: 5%;
+    left: 22%;
+}
+
+.left-hero h1 {
+    font-size: 60px;
+    font-weight: 800;
+    position: relative;
+    left: 22%;
+}
+
+.left-hero a {
+    position: relative;
+    left: 22%;
+    padding: 12px 25px 12px 25px;
+    background-color: #37220f;
+    border-radius: 30px;
+    border: none;
+    color: #ece0d2;
+    font-size: 20px;
+}
+
+.left-hero a:hover {
+    background-color: #64462e;
+}
+
+.right-hero img {
+    width: 60%;
+    height: 100%;
+    animation: float 3s ease-out infinite;
+}
+
+hr {
+    padding: 2px;
+    background-color: #37220f;
+    margin: 0;
+    box-shadow: 0px 0px 10px 1px #37220f;
+    border: none;
+}
+
+/*END HERO SECTION*/
+
+/*Carousel*/
+.promo-container {
+    width: 100%;
+    min-height: 70vh;
+    background-color: #84634A;
+    
+}
+
+.promo-container {
+    padding: 20px;
+}
+
+.promo-section {
+    max-width: 1200px;
+    margin: 0 auto; 
+    margin-top: 60px;
+}
+
+.carousel-inner img {
+    height: auto;
+    max-height: 500px; /* Set a max height for larger screens */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+}
+
+
+/*SERVICES CONTAINER*/
+.services-container {
+    width: 100%;
+    min-height: 120vh;
+    align-content: center;
+    margin-top: 0px;
+    background-color: #ece0d2;
+    color: #37220f;
+    background-image: url(/images/images-sip&snip/background-images-services/barber-design-1.png), url(/images/images-sip&snip/background-images-services/services-design-1.png);
+    background-repeat: no-repeat;
+    background-position: 100% 90%, -5% 0%;
+}
+
+
+.coffee-sec p {
+    width: 60%;
+    text-align: justify;
+}
+
+
+.coffee-sec h1,
+.coffee-sec p,
+.coffee-sec a {
+    margin-left: 330px;
+}
+
+.cof-img img {
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.barber-sec p {
+    width: 70%;
+    text-align: justify;
+}
+
+.barber-sec h1 {
+    width: 70%;
+}
+
+.bar-img img {
+    position: relative;
+    right: -20%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.barber-sec h1,
+.barber-sec p,
+.barber-sec a {
+    margin-left: 60px;
+}
+
+.btn {
+    position: relative;
+    top: -5px;
+    right: 0px;
+    left: 3px;
+    text-decoration: none;
+    color: #ece0d2;
+    background-color: #37220f;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: large;
+}
+
+.btn:hover {
+    background-color: #64462e;
+    padding: 12px 27px 12px 27px;
+    color: #ece0d2;
+}
+
+/*abOUT SECTION*/
+.about-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece0d2;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4b2d0d;
+    /* Classic dark brown */
+    margin-bottom: 1rem;
+}
+
+.horizontal-line {
+    flex: 1;
+    height: 2px;
+    background-color: #4b2d0d;
+}
+
+.about-us-text {
+    color: #f5ebe0;
+    font-size: 1.1rem;
+    text-align: justify;
+    box-shadow: 0px 0px 10px 1px #4b2d0d;
+}
+
+.about-us-text h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.text-content {
+    font-size: 1.2rem;
+    color: #4b2d0d;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.about-us-box {
+    background-color: #4b2d0d;
+    /* Dark brown background */
+    color: #f5ebe0;
+    /* Beige text */
+    padding: 2rem;
+    border-radius: 15px;
+    height: 100%;
+    z-index: -1;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/*REVIEWS*/
+.reviews-section {
+    background-color: #4d2b1a;
+    color: #fff4e8;
+    padding: 50px 20px;
+    min-height: 40vh;
+}
+
+.review-card {
+    background-color: #fff4e8;
+    color: #4d2b1a;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-card h5 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.review-card p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.stars {
+    color: #4b2d0d;
+}
+
+.see-more-btn {
+    background-color: #fff4e8;
+    color: #4d2b1a;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.see-more-btn:hover {
+    background-color: #dbc3a7;
+    color: #4d2b1a;
+}
+
+/*TEAM*/
+.team-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ece0d2;
+
+    
+}
+
+.team-card {
+    background-color: #d7b89c;
+    color: #4d2b1a;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.team-card h5 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+}
+
+.team-card p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+/*CONTACT US*/
+
+#contact {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece0d2;
+}
+
+.contact-section {
+    background-color: #4e2b20;
+    color: #f5efe6;
+    padding: 40px;
+    border: 5px solid #7e5a4c;
+    border-radius: 10px;
+}
+
+.contact-section h1 {
+    text-align: center;
+    color: #f5efe6;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    font-size: 1.1rem;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #f5efe6;
+}
+
+.contact-info a:hover {
+    color: #d7b89c;
+}
+
+.form-label {
+    color: #f5efe6;
+}
+
+.form-control {
+    background-color: #f5efe6;
+    color: #4e2b20;
+}
+
+.btn-submit {
+    background-color: #7e5a4c;
+    color: #f5efe6;
+    border: none;
+}
+
+.btn-submit:hover {
+    background-color: #5c3d31;
+}
+
+/*FOOTER*/
+.footer {
+    background-color: #4e2b20;
+    color: #f5efe6;
+    padding: 50px 20px;
+    
+}
+
+.footer-logo {
+    text-decoration: none;
+    color: #ece0d2;
+}
+
+.footer h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: sip-snipfont;
+    letter-spacing: 2px;
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: #f5efe6;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-icons i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.divider {
+    height: 1px;
+    background-color: #7e5a4c;
+    margin: 30px 0;
+}
+
+.developed {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #d6c2ae;
+}
+
+.working-hours {
+    text-align: end;
+}
+
+/* Styles for tablets */
+@media (max-width: 1200px) {
+
+    /*FOOTER*/
+
+    .working-hours {
+        text-align: center;
+    }
+
+    /*about*/
+    .side-by-side {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .about-us-box {
+        margin-top: 2rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .about-us-text {
+        color: #f5ebe0;
+        font-size: 1rem;
+        text-align: justify;
+        box-shadow: 0px 0px 10px 1px #4b2d0d;
+    }
+
+    .about-us-text h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .text-content {
+        font-size: 1rem;
+        color: #4b2d0d;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+
+    /*SERVICES CONTAINER*/
+
+    .services-container {
+        background-image: none;
+    }
+
+    .services-container {
+        margin-top: 40px;
+    }
+
+    .coffee-sec {
+        margin-top: 20px;
+    }
+
+    .coffee-sec p {
+        width: 90%;
+        text-align: justify;
+    }
+
+    .cof-img img {
+        position: relative;
+        left: 15%;
+        width: 70%;
+    }
+
+
+    .coffee-sec h1,
+    .coffee-sec p,
+    .coffee-sec a {
+        margin-left: 60px;
+    }
+
+    .barber-sec p {
+        width: 90%;
+        text-align: justify;
+    }
+
+    .barber-sec h1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .bar-img img {
+        margin-top: 10px;
+        width: 70%;
+        right: 2%;
+    }
+
+    .barber-sec h1,
+    .barber-sec p,
+    .barber-sec a {
+        margin-left: 0px;
+    }
+
+    .btn {
+        top: 0px;
+        left: 3px;
+        font-weight: 100;
+        font-size: small;
+    }
+
+
+    /*HERO SEC*/
+    .hero-section {
+        padding-top: 200px;
+        min-height: auto;
+    }
+
+    .promo-container {
+        margin-top: 100px;
+        height: 50vh;
+    }
+
+    .left-hero {
+        text-align: left;
+    }
+
+    .left-hero p {
+        font-size: 10px;
+        top: 5%;
+        left: 15%;
+    }
+
+    .left-hero h1 {
+        font-size: 30px;
+        font-weight: 800;
+        left: 15%;
+    }
+
+    .left-hero a {
+        left: 15%;
+    }
+
+    .right-hero img {
+        width: 70%;
+        height: 100%;
+    }
+
+
+}
+
+/* Styles for large phones */
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: auto;
+
+    }
+
+    .promo-container {
+        min-height: auto;
+        margin-top: 100px;
+    }
+
+    /*SERVICES CONTAINER*/
+
+    .services-container {
+        background-image: none;
+    }
+
+    .coffee-sec p {
+        width: 90%;
+        text-align: justify;
+        font-size: 13px;
+    }
+
+    .coffee-sec h1 {
+        font-size: 20px;
+    }
+
+    .coffee-sec h1,
+    .coffee-sec p,
+    .coffee-sec a {
+        margin-left: 20px;
+    }
+
+    .barber-sec p {
+        width: 90%;
+        text-align: justify;
+        font-size: 13px;
+    }
+
+    .barber-sec h1 {
+        width: 90%;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .bar-img img {
+        margin-top: 10px;
+    }
+
+    .barber-sec h1,
+    .barber-sec p,
+    .barber-sec a {
+        margin-left: 20px;
+    }
+
+    .btn {
+        top: -10px;
+        left: 3px;
+        font-weight: 100;
+        font-size: small;
+    }
+
+    .cof-img img {
+        position: relative;
+        left: 6%;
+        width: 80%;
+    }
+
+    .bar-img img {
+        margin-top: 10px;
+        width: 80%;
+        right: 1%;
+    }
+
+    /*about*/
+    .side-by-side {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .about-us-box {
+        margin-top: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.9rem;
+    }
+
+    .about-us-text {
+        color: #f5ebe0;
+        font-size: 0.9rem;
+        text-align: justify;
+        box-shadow: 0px 0px 10px 1px #4b2d0d;
+    }
+
+    .about-us-text h2 {
+        text-align: center;
+        font-size: 1.9rem;
+    }
+
+    .text-content {
+        font-size: 0.9rem;
+        color: #4b2d0d;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    /*FOOTER*/
+    .footer h1 {
+        font-size: 2.0rem;
+        font-weight: bold;
+    }
+
+    .footer p {
+        font-size: 0.8rem;
+    }
+
+    .working-hours {
+        text-align: end;
+    }
+}
+
+
+/* Styles for small phones */
+@media (max-width: 580px) {
+
+   
+
+    /*Carousel*/
+    .promo-section {
+        margin-top: 95px;
+    }
+ 
+    /*FOOTER*/
+    .footer h1 {
+        font-size: 1.9rem;
+        font-weight: bold;
+    }
+
+    .footer p {
+        font-size: 0.8rem;
+    }
+
+
+    .working-hours {
+        text-align: center;
+    }
+
+    /*TEAM*/
+    .team-card {
+        padding: 10px;
+        width: 80%;
+    }
+
+    .team-card img {
+        width: 50%;
+    }
+
+    /*about*/
+    .side-by-side {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .about-us-box {
+        margin-top: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.0rem;
+    }
+
+    .about-us-text {
+        color: #f5ebe0;
+        font-size: 0.7rem;
+        text-align: justify;
+        box-shadow: 0px 0px 10px 1px #4b2d0d;
+    }
+
+    .about-us-text h2 {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .text-content {
+        font-size: 0.7rem;
+        color: #4b2d0d;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    /*SERVICES CONTAINER*/
+
+    .services-container {
+        background-image: none;
+    }
+
+    .coffee-sec p {
+        width: 90%;
+        text-align: justify;
+    }
+
+
+    .coffee-sec h1,
+    .coffee-sec p,
+    .coffee-sec a {
+        margin-left: 20px;
+    }
+
+    .barber-sec p {
+        width: 90%;
+        text-align: justify;
+    }
+
+    .barber-sec h1 {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .bar-img img {
+        margin-top: 10px;
+    }
+
+    .barber-sec h1,
+    .barber-sec p,
+    .barber-sec a {
+        margin-left: 20px;
+    }
+
+    .cof-img img {
+        position: relative;
+        left: 6%;
+        width: 40%;
+    }
+
+    .bar-img img {
+        margin-top: 10px;
+        width: 40%;
+        left: 19%;
+    }
+
+
+    .btn {
+        top: -10px;
+        left: 3px;
+        font-weight: 100;
+        font-size: small;
+    }
+
+    /*CONTACCT*/
+    .contact-section {
+        width: 90%;
+        position: relative;
+        left: 5%;
+    }
+
+    .contact-section h1 {
+        font-size: 25px;
+    }
+
+    .contact-info i,
+    a {
+        font-size: 15px;
+    }
+
+    /*HERO*/
+    .hero-section {
+        padding-top: 130px;
+        min-height: auto;
+    }
+
+    .promo-container {
+        margin-top: 100px;
+        min-height: auto;
+    }
+
+    .left-hero {
+        text-align: center;
+    }
+
+    .left-hero p {
+        font-size: 13px;
+        top: 5%;
+        left: 1%;
+    }
+
+    .left-hero h1 {
+        font-size: 30px;
+        font-weight: 800;
+        left: 1%;
+    }
+
+    .left-hero a {
+        left: 3%;
+        top: 2%;
+        padding: 7px 15px 7px 15px;
+        font-size: 15px;
+        font-weight: 500;
+
+    }
+
+    .left-hero a:hover {
+        background-color: #64462e;
+        padding: 7px 15px 7px 15px;
+    }
+}
+
